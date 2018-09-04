@@ -29,8 +29,8 @@
     <ImageView
         android:id="@+id/bigDiamond"
         android:layout_width="wrap_content"
-        android:layout_height="347dp"
-        android:layout_marginStart="84dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53.3dp"
         android:layout_marginTop="1dp"
         android:contentDescription="@string/main_design_element"
         app:layout_constraintStart_toStartOf="@+id/appNameLogo"
@@ -42,6 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="2dp"
+        android:layout_marginTop="212dp"
         android:contentDescription="@string/application_name_logo"
         app:layout_constraintBottom_toBottomOf="@+id/bigDiamond"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,10 +53,12 @@
         android:id="@+id/greenDiamondBottomLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="108dp"
+        android:layout_marginBottom="82dp"
+        android:layout_marginEnd="217dp"
         android:layout_marginStart="56dp"
         android:contentDescription="@string/additional_design_element"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_vector_2" />
 
@@ -64,9 +67,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="35dp"
+        android:layout_marginTop="115dp"
         android:contentDescription="@string/additional_design_element"
         app:layout_constraintBottom_toBottomOf="@+id/navigation"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bigDiamond"
         app:srcCompat="@drawable/ic_vector_3" />
 
     <Button

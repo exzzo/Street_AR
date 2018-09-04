@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+        //navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 
     fun next(view: View){
